@@ -13,17 +13,29 @@
      
      */
     
-    NSInteger x = 2 + 3 * 5;
-    NSLog(@"x: %li", x);
+    CGFloat f = 0.0;
+    NSLog(@"f: %f", f);
     
-    x = (2 + 3) * 5;
-    NSLog(@"x: %li", x);
+    f = 17 / 29;
+    NSLog(@"f: %f", f);
     
-    NSInteger y = 5 - 8 * 4 + 2;
-    NSLog(@"y: %li", y);
+    f = 17 / 29.0;
+    NSLog(@"f: %f", f);
     
-    y = 5 - 8 * (4 + 2);
-    NSLog(@"y: %li", y);
+    f = 1 + 2.5;
+    NSLog(@"f: %f", f);
+    
+    f = 10 - 1.11;
+    NSLog(@"f: %f", f);
+    
+    f = 0.1667 * 6;
+    NSLog(@"f: %f", f);
+
+    f = 3 / 7;
+    NSLog(@"f: %f", f);
+
+    f = 3 / 7.0;
+    NSLog(@"f: %f", f);
     
     // do not alter
     return YES;  //
