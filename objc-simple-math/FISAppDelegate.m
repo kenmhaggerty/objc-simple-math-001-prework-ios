@@ -13,26 +13,19 @@
      
      */
     
-    NSInteger a = 0;
-    NSInteger b = 0;
-    NSInteger c = a + b;
-    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    NSUInteger u = 1;
+    NSLog(@"u: %lu", u);
     
-    a = 17;
-    b = 29;
-    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    u = 2 + 3;
+    NSLog(@"u: %lu", u);
+    u = 2 * 3;
+    NSLog(@"u: %lu", u);
     
-    c = a + b;
-    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    u = -1;
+    NSLog(@"u: %lu", u);
     
-    c = a - b;
-    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
-    
-    c = a * b;
-    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
-    
-    c = a / b;
-    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    u = 8 - 10;
+    NSLog(@"u: %lu", u);
     
     // do not alter
     return YES;  //
